@@ -1,0 +1,101 @@
+.navbar {
+  display: flex ;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 1.5rem;
+  color: #f0ebeb;
+
+}
+
+nav ul{
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+   gap: 1rem; 
+}
+
+nav a{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+.logo{
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #f0ebeb;
+  text-decoration: none;
+  align-content: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-left: 1rem;}
+
+  header{
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    background-color: orange;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+
+h2{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(24, 24, 24);
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 1rem;;
+
+}
+#AXMX {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: -20px;
+    gap: 1rem;
+    margin-bottom: 1px;
+    font-weight: lighter;
+    font-size: 0.8rem;
+    color: rgb(24, 24, 24);
+}
+
+
+
+#Pizza {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top: 0.1rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+/* ...existing code... */
+#list {
+    list-style-type: disc;
+    margin-left: -0.2rem;
+    padding: 0;
+    color: rgb(24, 24, 24);
+    background-color: #fff8e4;
+    /* Add this line: */
+    list-style-position: inside;
+    
+}
+
+#list li::marker {
+    color: black; /* bullet color */
+}
+
+footer {
+    text-align: center;
+    padding: 0.1rem;
+    background-color: bisque;
+    color: black;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 2rem;
+    font-weight: lighter;
+}
